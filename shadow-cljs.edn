@@ -1,0 +1,19 @@
+;; shadow-cljs configuration
+{:source-paths ["src/dev"
+                "src/main"
+                "src/test"]
+
+ :dependencies [[reagent "1.0.0-alpha2"]
+                [cljs-ajax "0.8.1"]]
+ :ssl          {:keystore "./mykeystore.jks"
+                :password "mypass"}
+ :dev-http     {8081 {:root      "public"
+                      :proxy-url "https://www.giantbomb.com"}}
+ :nrepl        {:port 9000 :middleware []}
+ :builds
+               {:frontend {:target  :browser
+                           :modules {:main {:init-fn me.marcinko.giant-bomb-rent/run}
+                                     }
+                           }
+                }
+ }

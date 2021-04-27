@@ -1,0 +1,4 @@
+GET https://www.giantbomb.com/api/search/?api_key=46a802bbbb37f41d0151251d76bb3ef805dea50b&format=json&resources=game&query=rock&page=14&limit=10
+#GET https://localhost:8081/api/search/?api_key=46a802bbbb37f41d0151251d76bb3ef805dea50b&format=json&resources=game&query=plane
+Accept: application/json
+User-Agent: Some-unique-user-agent
