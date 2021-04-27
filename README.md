@@ -1,5 +1,15 @@
 # Gravie Software Engineer Challenge
 
+## Building & Running
+
+This is ClojureScript implementation of the test, and is developed using Shadow-CLJS, so one can build and start thr app locally via:
+
+`npx shadow-cljs watch frontend`
+
+After that, the web app is available at:
+
+https://localhost:8081/
+
 ## Instructions
 After completing the challenge below, please send us an email with the location of your repository. If your repository is private, be sure to add us as collaborators so we can view your code.
 
